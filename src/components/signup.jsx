@@ -120,7 +120,7 @@ return (
               </div>
               <div className="space-y-1">
                   <span>
-                      Enter your email address
+                      Upload a profile picture
                   </span>
                   <Input 
                   name="profile_pic" 
