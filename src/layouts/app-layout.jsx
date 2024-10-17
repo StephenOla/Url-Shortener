@@ -1,9 +1,11 @@
 import Header from "@/components/header"
 import { Outlet } from "react-router-dom"
+import { Analytics } from "@vercel/analytics/react"
 
 const AppLayout = () => {
   return (
     <div>
+      <Analytics/>
         <main className="min-h-screen pr-10 pl-10 container">
             <Header/>
            <Outlet/>
